@@ -1,0 +1,43 @@
+<html>
+    <head>Digital Clock</head>
+        <body>
+            <h1 id="dc"></h1 id="dc">
+        </body>
+        <script>
+
+            function showtime()
+            {
+                let sssion="AM";
+
+                let date=new Date();
+                let h=date.getHours();
+                let m=date.getMinutes();
+                let s=date.getSeconds();
+
+                //12 houurs clock
+                if(h==0)
+                
+                    h=12;
+                    if(h>12)
+                      h=h-12;
+                      sssion="PM";
+                 //0 's 'change 00,01,02
+                 if(h<10)
+                 h="0"+h;  
+                
+                 if(m<10)
+                 m="0"+m;  
+
+                 if(s<10)
+                 s="0"+s;  
+
+                let time=h+":"+m+":"+s+"  "+sssion;
+
+                document.getElementById("dc").innerHTML=time;
+                setTimeout(showtime,1000);
+            }
+            showtime();
+
+            
+        </script>
+</html>

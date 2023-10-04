@@ -1,0 +1,33 @@
+---Arithmetic Operators--
+'+'  Addition
+'-'  Subtraction
+'*'  Multiplication
+'**' Expontaions (ES2016)
+'/'  Division
+'%'  Modules
+'++' Increment
+'--' Decrement
+
+--Assignment Operators--
+=    x=y;
++=   x+=y;
+-=   x-=y;
+*=   x*=y;
+/=   x/=y;
+%=   x%=y;
+
+--Comparison Operators--
+'=='   equal to
+'==='  equal value and equal type
+'!='   not equal
+'!=='  not value equal and not type equal
+'>'    greater than
+'<'    less than
+'>='   greater than or equal
+'<='   less than or equal
+'?'    Ternary Operators
+
+--Logical Operators--
+'&&' Logical and
+'||' Logical or
+'!'  Logical not

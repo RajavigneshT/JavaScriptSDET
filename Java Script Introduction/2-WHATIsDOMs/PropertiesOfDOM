@@ -1,0 +1,15 @@
+DOM
+=====================
+1) DOM is API Interface provied by browser.
+2) When a webpage is loaded.Browser creates a DOM of the page.
+3) With the DOM.Js can accecss and change all elements of an HTML Document
+
+
+JavaScript POWER
+======================
+1) JS can change all HTML elemetns & Attributes in the webpage
+2) JS can change the CSS style in the webpage
+3) JS can remove existing HTML elements and Attributes
+4) JS can add new HTML elements and Attributes
+5) JS can react to all existing HTML elemetns events in the webpage
+6) JS can create new HTML events in HTML page
